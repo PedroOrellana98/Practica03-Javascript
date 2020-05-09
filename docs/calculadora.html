@@ -1,5 +1,80 @@
 <!DOCTYPE html>
 <html lang="es">
-    
-
+    <title>
+        Calculadora
+    </title>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Cacluladora, Matematicas" />
+    <link href= "../css/general.css" rel="stylesheet" type="text/css"/>
+    <link href= "../css/calculadora.css" rel="stylesheet" type="text/css"/>
+    <script src = "../js/calculadora.js" type ="text/javascript"></script>
+    <header>
+        <h1 id = "titulo"> Calculadora </h1>
+        <img id="tituloImangen" src="../images/calculadora.jpg" alt="cuenta">
+        <input id ="tituloTexto" type="search" placeholder="Buscar">
+        <img id="imagenPerfil" src="../images/perfil.jpg" alt="perfil"> 
+        <img id="imagenCorreo" src="../images/correo.png" alt="correo">
+    </header>
+<body onload="calcular();">
+    <div class = "divNav">
+    <nav class="navegar">
+        <ul class = "list">
+            <li><a href=index.html#footerInfo>Contacto </a></li>
+        </ul>
+    </nav>
+    </div>
+    <section class="sectionContenido">
+        <h2 hidden> CONTENIDO </h2>
+            <div id = "divCalculadora">
+                <span id ="resultado"></span>
+                <button id = "boton7"> 7 </button>
+                <button id = "boton8"> 8 </button>
+                <button id = "boton9"> 9 </button>
+                <button id = "botonDivision"> / </button>
+                <button id = "boton4"> 4 </button>
+                <button id = "boton5"> 5 </button>
+                <button id = "boton6"> 6 </button>
+                <button id = "botonMultiplicacion"> * </button>
+                <button id = "boton1"> 1 </button>
+                <button id = "boton2"> 2 </button>
+                <button id = "boton3"> 3 </button>
+                <button id = "botonResta"> - </button>
+                <button id = "boton0"> 0 </button>
+                <button id = "botonBorrar"> CE </button>
+                <button id = "botonIgual"> = </button>
+                <button id = "botonSuma"> + </button>
+            </div>
+    </section>
+</body>
+    <footer>
+        <div id = "footerInfo">
+            <div id = "divImage1">
+                <img id="imagenFacebook" src="../images/facebook.png" alt="facebook">
+                <img id="imagenInstagram" src="../images/instagram.png" alt="instagram">
+            </div>
+            <div id = "divImage2">
+                <img id="imagenContacto" src="../images/contacto.png" alt="contacto">
+            </div>
+            <div id = "divCopy">
+                &copy; Todos los derechos reservados
+            </div>
+        </div>
+        <div id = "footerContacto">
+            <form>
+                <fieldset>
+                    <legend> Quien Soy </legend>
+                        <label class="labelContacto"> PEDRO JOSE ORELLANA </label>
+                        <label class="labelContacto"> Correo: <a href="mailto:porellanaj@est.ups.edu.ec"> 
+                        porellanaj@est.ups.edu.ec </a> </label>
+                        <label class="labelContacto"> Telefono: <a href="tel:+59398550859"> 
+                            0998550859 </a> </label>
+                            <label class="labelContacto"> UNIVERSIDAD POLITECNICA SALESIANA </label>
+                </fieldset>
+            </form>
+        </div>
+        <div id = "footerLocalizacion">
+            <iframe id = "localizacion"
+            src="https://maps.google.com/?ll=-2.886850,-78.989353&z=16&output=embed"></iframe>
+        </div>
+    </footer>
 </html>
