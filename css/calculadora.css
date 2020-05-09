@@ -7,10 +7,9 @@
 }
 
 body{
-    background-color: wheat;
+    background-image: url(https://atletismoantioquia.com/wp-content/uploads/2018/02/Fondo-para-Pagina-web-2018.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    color: black;
 }
 
 ul > li > a, #titulo {
