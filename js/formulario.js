@@ -1,15 +1,20 @@
-function validarNombre(){
+function validarTexto(){
 
     nombre = document.getElementById("txtNombre").value;
-    console.log(nombre.length);
+    nombreS = nombre.replace(/ /g, "");
 
-    if (isNaN(nombre)) {
+    if (isNaN(nombre) && (nombre != nombreS)) {
         document.getElementById('txtNombre').style.color = "black";
+        console.log("Con espacios")
     }else{
         document.getElementById('txtNombre').style.color = "red";
+        console.log("Sin espacios")
     }
 }
 
+function validarTelefono(){
+    
+}
 /*function val_numero(string) {
     var out = '';
     var filtro = '1234567890';
