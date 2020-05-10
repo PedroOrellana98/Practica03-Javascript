@@ -1,5 +1,6 @@
 var contN;
 var contA;
+var contD;
 var contT;
 var contF;
 var contC;
@@ -70,6 +71,20 @@ function validarApellido(){
         document.getElementById('txtApellido').style.color = "red";
         document.getElementById('mensajeApellido').innerHTML = "<br>Apellido invalido"
         contA = 0;
+    }
+}
+
+function validarDireccion(){
+    direccion = document.getElementById("txtDireccion").value;
+
+    if (direccion.length > 1) {
+        document.getElementById('txtDireccion').style.color = "black";
+        document.getElementById('mensajeDireccion').innerHTML = "<br hidden>"
+        contD = 1;
+    }else{
+        document.getElementById('txtDireccion').style.color = "red";
+        document.getElementById('mensajeDireccion').innerHTML = "<br>Direccion invalida"
+        contD = 0;
     }
 }
 
@@ -168,7 +183,7 @@ function validarContraseña(){
 
 function validar(){
     
-    sum = contN+contA+contT+contF+contC+contCO+contI;
+    sum = contN+contA+contT+contF+contC+contCO+contI+contD;
     console.log(sum);
     cedula = document.getElementById("txtCedula").value;
     nombre = document.getElementById("txtNombre").value;
@@ -200,7 +215,7 @@ function validar(){
         alert("Campo Contraseña vacio");
     }    
 
-    if (sum == 7) {
+    if (sum == 8) {
         alert("A pasado");
         location.href="calculadora.html";
     }else{
