@@ -31,22 +31,29 @@
         <form>
             <fieldset>
                     <legend> FORMULARIO </legend>
-                    <label class="labelContacto"> CEDULA: </label><br>
-                    <input type="text" id="txtCedula" name="cedula" placeholder="Ingrese su cedula"><br>
-                    <label class="labelContacto"> NOMBRES: </label><br>
-                    <input type="text" id="txtNombre" name="nombre" placeholder="Ingrese su nombre" onkeydown="validarNombre()"><br>
-                    <label class="labelContacto"> APELLIDOS: </label><br>
-                    <input type="text" id="txtApellido" name="apellido" placeholder="Ingrese su apellido" onkeydown="validarApellido()"><br>
-                    <label class="labelContacto"> DIRECCION: </label><br>
+                    <label class="labelContacto"> CEDULA* </label><br>
+                    <input type="text" id="txtCedula" name="cedula" placeholder="Ingrese su cedula" onchange="validarCedula()">
+                    <span id="mensajeCedula"></span><br>
+                    <label class="labelContacto"> NOMBRES* </label><br>
+                    <input type="text" id="txtNombre" name="nombre" placeholder="Ingrese sus nombres" onkeydown="validarNombre()">
+                    <span id="mensajeNombre"></span><br>
+                    <label class="labelContacto"> APELLIDOS* </label><br>
+                    <input type="text" id="txtApellido" name="apellido" placeholder="Ingrese sus apellidos" onkeydown="validarApellido()">
+                    <span id="mensajeApellido"></span><br>
+                    <label class="labelContacto"> DIRECCION* </label><br>
                     <input type="text" id="txtDireccion" name="direccion" placeholder="Ingrese su direccion"><br>
-                    <label class="labelContacto"> TELEFONO: </label><br>
-                    <input type="text" id="txtTelefono" name="telefono" placeholder="Ingrese su telefono" onkeyup="validarTelefono()"><br>
-                    <label class="labelContacto"> FECHA NACIMIENTO: </label><br>
-                    <input type="text" id="txtFecha" name="fecha" placeholder="Formato dd/mm/yyyy" onkeyup="validarFecha()"><br>
-                    <label class="labelContacto"> CORREO ELECTRONICO: </label><br>
-                    <input type="text" id="txtCorreo" name="correo" placeholder="Ingrese su correo"><br>
-                    <label class="labelContacto"> CONTRASEÑA: </label><br>
-                    <input type="text" id="txtContra" name="contraseña" placeholder="Ingrese su contraseña"><br>
+                    <label class="labelContacto"> TELEFONO* </label><br>
+                    <input type="text" id="txtTelefono" name="telefono" placeholder="Ingrese su telefono" onkeyup="validarTelefono()">
+                    <span id="mensajeTelefono"></span><br>
+                    <label class="labelContacto"> FECHA NACIMIENTO* </label><br>
+                    <input type="text" id="txtFecha" name="fecha" placeholder="Formato dd/mm/yyyy" onkeyup="validarFecha()">
+                    <span id="mensajeFecha"></span><br>
+                    <label class="labelContacto"> CORREO ELECTRONICO* </label><br>
+                    <input type="text" id="txtCorreo" name="correo" placeholder="Ingrese su correo" onkeyup="validarCorreo()">
+                    <span id="mensajeCorreo"></span><br>
+                    <label class="labelContacto"> CONTRASEÑA* </label><br>
+                    <input type="password" id="txtContra" name="contraseña" placeholder="Ingrese su contraseña" onchange="validarContraseña()">
+                    <span id="mensajeContra"></span><br>
                     <button id = "botonContacto" onclick="validar();"> Validar </button>
             </fieldset>
         </form>

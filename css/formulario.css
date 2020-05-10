@@ -33,3 +33,7 @@ section form fieldset input {
     text-align: center;
 }
 
+span {
+    color: red;
+}
+
