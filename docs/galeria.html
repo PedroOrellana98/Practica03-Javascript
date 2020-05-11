@@ -7,7 +7,8 @@
     <meta name="keywords" content="Galeria, Imagenes" />
     <link href= "../css/general.css" rel="stylesheet" type="text/css"/>
     <link href= "../css/imagenes.css" rel="stylesheet" type="text/css"/>
-    <script src = "../js/imagenes.js" type ="text/javascript"></script>
+    <script src = "../js/imagenes.js" ></script>
+    <body>
     <header>
         <h1 id = "titulo"> GALERIA </h1>
         <img id="tituloImagen" src="../images/cuenta.jpg" alt="cuenta">
@@ -19,16 +20,15 @@
         <nav class="navegar">
             <ul class = "list">
                 <li><a href=formulario.html>Formulario </a></li>
-                <li><a href=galeria.html>Galeria </a></li>
+                <li><a href=calculadora.html>Calculadora </a></li>
                 <li><a href=#footerInfo>Contacto </a></li>
             </ul>
         </nav>
         </div>
-    <body>
     <section class="sectionContenido">
         <h2 hidden> CONTENIDO </h2>
         <form id = "divImagenes">
-            <img hidden id = "galeria">
+            <img hidden id = "galeria" alt = "galeria" src = "../images/Galeria/imagen0.jpg">
             <canvas id="canvas"></canvas>
             <div id = "botones">
                 <input id = "atras" type = "button" value = "Anterior" onclick="anterior()">
@@ -37,7 +37,6 @@
             </div>
         </form>
     </section>
-    </body>
     <footer>
         <div id = "footerInfo">
             <div id = "divImage1">
@@ -69,4 +68,5 @@
             src="https://maps.google.com/?ll=-2.886850,-78.989353&z=16&output=embed"></iframe>
         </div>
     </footer>
+    </body>
 </html>
