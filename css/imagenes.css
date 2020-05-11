@@ -7,33 +7,33 @@
 }
 
 body{
-    background-image: url(https://images.vexels.com/media/users/3/125495/raw/a43448667f21fac3bb98e0668774ebd1-fondo-geometrico-abstracto-verde-suave.jpg);
+    background-image: url(https://img.freepik.com/vector-gratis/banner-tecnologia-digital-seguridad-abstracta_43778-449.jpg?size=626&ext=jpg);
     background-size: 110%;
     background-repeat: no-repeat;
 }
 
 ul > li > a, #titulo {
-    color: black !important;
+    color: white !important;
 }
 
-section form fieldset input {
-    width: 200px;
+#galeria {
+    margin-left: 10%;
+    float: left;
+    width: 800px;
+    height: 300px;
 }
 
-#divFormulario {
-    margin-top: 10px;   
-    margin-left: 25%;
-    width: 40%;
+#botones {
+    margin-top: 20px;
+    float: left;
+    height: 50px;
+    margin-left: 35%;
 }
 
-#botonContacto {
-    margin-top: 30px;
-    width: 80px;
-    margin-left: 50%;
+input{
+    margin-left: 50px;
     text-align: center;
+    font-size: large;
 }
 
-span {
-    color: red;
-}
 
