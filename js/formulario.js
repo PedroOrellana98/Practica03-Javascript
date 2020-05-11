@@ -106,14 +106,15 @@ function validarTelefono(){
 function validarFecha(){
     array = document.getElementById('txtFecha').value.split('/');
     fecha = new Date(array[2], array[1], array[0]);
-
+    
     if (array.length == 3 && fecha && array[0] == fecha.getDate() && array[1] == fecha.getMonth() && array[2] == fecha.getFullYear()) {
+        
         document.getElementById('txtFecha').style.color = "black";
         document.getElementById('mensajeFecha').innerHTML = "<br hidden>"
         contF = 1;
     } else {
         document.getElementById('txtFecha').style.color = "red";
-        document.getElementById('mensajeFecha').innerHTML = "<br>Fecha invalida"
+        document.getElementById('mensajeFecha').innerHTML = "<br>Fecha invalida formato dd/mm/yyyy"
         contF = 0;
     }
 }

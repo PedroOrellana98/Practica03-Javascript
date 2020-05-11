@@ -1,4 +1,4 @@
-var num = 1;
+var num = 0;
 var cont = 325;
 var cont1 = 325;
 var cont2 = 325;
@@ -13,29 +13,54 @@ var aleatorio4;
 
 function siguiente(){
     num++;
-    /*if (num>5) {
-        num=5;
-    }
-    imagen = document.getElementById("galeria");
-    imagen.src = "../images/Galeria/imagen" + num + ".jpg";*/
+    contI = 325;
+    
     c = document.getElementById("canvas");
     ctx = c.getContext("2d");
-   if (num > 10) {
-        num=10;
-    }
-    imagen = document.getElementById("galeria");
-    imagen.src = "../images/Galeria/imagen" + num + ".jpg";
-    ctx.drawImage(imagen, 0, 10);
-    console.log(imagen);
+    img = document.getElementById("galeria");
+    boton = document.getElementById("adelante");
+    boton1 = document.getElementById("atras");
+    if (num > 5) {
+        num = 5;
+        boton.disabled = true;
+    }else{
+        boton1.disabled = false;
+        myvar = setInterval(function imagenSiguiente(){
+        contI--;
+        if (contI >=0 ) {
+            img.src = "../images/Galeria/imagen"+ num + ".jpg";
+            ctx.drawImage(img, contI, 10);
+        }else{
+            contI = 0;
+            clearInterval(myvar);
+        }  
+    }, 05);}
+    console.log(num);
 }
 
 function anterior(){
     num--;
-    if (num<1) {
-        num=1;
+    contI = 325;
+    c = document.getElementById("canvas");
+    ctx = c.getContext("2d");
+    img = document.getElementById("galeria");
+    boton = document.getElementById("atras");
+    boton1 = document.getElementById("adelante");
+    if (num < 2) {
+        num = 1;
+        boton.disabled = true;
     }
-    imagen = document.getElementById("galeria");
-    imagen.src = "../images/Galeria/imagen" + num + ".jpg";
+        boton1.disabled = false;
+        myvar = setInterval(function imagenSiguiente(){
+            contI--;
+            if (contI >=0 ) {
+                img.src = "../images/Galeria/imagen"+ num + ".jpg";
+                ctx.drawImage(img, contI, 10);
+            }else{
+                contI = 0;
+                clearInterval(myvar);
+            }  
+    }, 05); 
     
 }
 
