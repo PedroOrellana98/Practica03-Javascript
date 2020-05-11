@@ -35,7 +35,6 @@ function siguiente(){
             clearInterval(myvar);
         }  
     }, 05);}
-    console.log(num);
 }
 
 function anterior(){

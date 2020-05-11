@@ -216,10 +216,9 @@ function validar(){
     }
 
     if (sum == 8) {
-        alert("Usted aprovo todos los campos");
-        location.href='calculadora.html';
+        location.href='../index.php';
     }else{
-        alert("Campos invalidos");
+        alert("Revise sus campos");
         location.href='formulario.html';
     }
 
