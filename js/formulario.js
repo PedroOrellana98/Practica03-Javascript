@@ -182,9 +182,8 @@ function validarContraseña(){
 }
 
 function validar(){
-    
+
     sum = contN+contA+contT+contF+contC+contCO+contI+contD;
-    console.log(sum);
     cedula = document.getElementById("txtCedula").value;
     nombre = document.getElementById("txtNombre").value;
     apellido = document.getElementById("txtApellido").value;
@@ -213,13 +212,14 @@ function validar(){
     }
     if (contra.length < 1) {
         alert("Campo Contraseña vacio");
-    }    
+    }
 
     if (sum == 8) {
-        alert("A pasado");
-        location.href="calculadora.html";
+        alert("Usted aprovo todos los campos");
+        location.href='calculadora.html';
     }else{
         alert("Campos invalidos");
+        location.href='formulario.html';
     }
 
 }
