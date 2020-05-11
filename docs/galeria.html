@@ -19,7 +19,7 @@
         <nav class="navegar">
             <ul class = "list">
                 <li><a href=../index.html>Principal </a></li>
-                <li><a href=calculadora.html>Calculadora </a></li>
+                <li><a href=formulario.html>Formulario </a></li>
                 <li><a href=galeria.html>Galeria </a></li>
                 <li><a href=#footerInfo>Contacto </a></li>
             </ul>
@@ -29,7 +29,8 @@
     <section class="sectionContenido">
         <h2 hidden> CONTENIDO </h2>
         <form id = "divImagenes">
-            <img src = "../images/Galeria/imagen1.jpg" id = "galeria">
+            <img hidden id = "galeria">
+            <canvas id="canvas"></canvas>
             <div id = "botones">
                 <input type = "button" value = "Anterior" onclick="anterior()">
                 <input type = "button" value = "Iniciar" onclick="presentacion()">

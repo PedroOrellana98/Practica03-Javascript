@@ -2,25 +2,19 @@
     float: left;
     margin-top: 30px;
     width: 60%;
+    height: 700px;
     margin-left: 4%;
     margin-bottom: 10px;
 }
 
 body{
-    background-image: url(https://img.freepik.com/vector-gratis/banner-tecnologia-digital-seguridad-abstracta_43778-449.jpg?size=626&ext=jpg);
-    background-size: 110%;
+    background-image: url(https://cdn2.f-cdn.com/contestentries/1108779/25763747/5995bb343b3c7_thumb900.jpg);
+    background-size: 150%;
     background-repeat: no-repeat;
 }
 
 ul > li > a, #titulo {
     color: white !important;
-}
-
-#galeria {
-    margin-left: 10%;
-    float: left;
-    width: 800px;
-    height: 400px;
 }
 
 #botones {
@@ -31,9 +25,15 @@ ul > li > a, #titulo {
 }
 
 input{
-    margin-left: 40px;
+    margin-left: 50px;
     text-align: center;
     font-size: large;
 }
 
-
+#canvas{
+    margin-left: 25%;
+    float: left;
+    width: 600px;
+    height: 600px;
+    border: 1px solid white;
+}
