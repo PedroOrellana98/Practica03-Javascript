@@ -82,6 +82,8 @@ Indicaciones:
 Luego, desde javascript se debe controlar para al hacer clic sobre uno de los botones realice una acción relacionada
 a una galería de imágenes (ver ejemplo, https://gihp4c.blog.ups.edu.ec/)
 
+![Image 0](https://github.com/PedroOrellana98/Practica03-Javascript/blob/master/Imagenes%203%20Hipermedial/captura0.png)
+
 Indicaciones:
 
 - Se debe tener, un arreglo con los nombres de diez imágenes, previamente descargadas y almacenadas en una carpeta
@@ -104,9 +106,13 @@ aritméticas.
 ## RESULTADO(S) OBTENIDO(S):
 
 1. Creación de un repositorio de GitHub
+![Image 1](https://github.com/PedroOrellana98/Practica03-Javascript/blob/master/Imagenes%203%20Hipermedial/captura1.png)
 2. Creación de carpetas para los archivos JavaScript
+![Image 2](https://github.com/PedroOrellana98/Practica03-Javascript/blob/master/Imagenes%203%20Hipermedial/captura2.png)
 3. Commit y push en el repositorio de GitHub
+![Image 3](https://github.com/PedroOrellana98/Practica03-Javascript/blob/master/Imagenes%203%20Hipermedial/captura3.png)
 4. Crear un archivo README.md
+![Image 4](https://github.com/PedroOrellana98/Practica03-Javascript/blob/master/Imagenes%203%20Hipermedial/captura4.png)
 5. Realización de los puntos de practicas
 
 ```
@@ -190,20 +196,26 @@ Y el comando de ejecución es ctx.drawImage(“imagen”, x, y);
 ```
 b. Diseño de las paginas HTML
 
+![Image 5](https://github.com/PedroOrellana98/Practica03-Javascript/blob/master/Imagenes%203%20Hipermedial/captura5.png)
+
 Nota: Pagina HTML de la Calculadora
 
+![Image 6](https://github.com/PedroOrellana98/Practica03-Javascript/blob/master/Imagenes%203%20Hipermedial/captura6.png)
+
 Nota: Pagina HTML del Formulario
+
+![Image 7](https://github.com/PedroOrellana98/Practica03-Javascript/blob/master/Imagenes%203%20Hipermedial/captura7.png)
 
 Nota: Pagina HTML de la Galería
 
 ```
 c. Funcionamiento de cada Script
 ```
-Calculadora: 5 / 6 =
+Calculadora: 5 / 6 = ![Image 8](https://github.com/PedroOrellana98/Practica03-Javascript/blob/master/Imagenes%203%20Hipermedial/captura8.png)
 
-Formulario Validaciones:
+Formulario Validaciones: ![Image 9](https://github.com/PedroOrellana98/Practica03-Javascript/blob/master/Imagenes%203%20Hipermedial/captura9.png)
 
-Galería de Imágenes:
+Galería de Imágenes: ![Image 10](https://github.com/PedroOrellana98/Practica03-Javascript/blob/master/Imagenes%203%20Hipermedial/captura10.png)
 
 ```
 e. Información de GitHub
@@ -228,6 +240,6 @@ funciones es https://www.w3schools.com/js/default.asp.
 Nombre de estudiante: Pedro José Orellana Jaramillo
 ```
 
-Firma de estudiante:
+Firma de estudiante: ![Image 11](https://github.com/PedroOrellana98/Practica03-Javascript/blob/master/Imagenes%203%20Hipermedial/captura11.png)
 
 
